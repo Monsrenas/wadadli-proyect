@@ -1,0 +1,103 @@
+body
+{
+	margin:	0px;
+	padding-top:5px;
+	background-image:  url("imagenes/tramaimpreso.png")!important;
+}
+
+.nlogmbre { font-size: 2.4vw !important;
+			float: none;}
+.slogan {font-size: 1.0vw !important;
+		text-align: center !important;
+		align-content: center !important;
+		float: none;}
+
+.parrafo {
+	padding: 20px;
+	font-size: 1.3vw !important;
+	background-color: #8762C3;
+  /*background-image:  url("fondo.jpg")!important;*/
+	border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+
+    -webkit-box-shadow: 11px 10px 17px 1px rgba(0,0,0,0.45);
+    -moz-box-shadow: 11px 10px 17px 1px rgba(0,0,0,0.45);
+    box-shadow: 11px 10px 17px 1px rgba(0,0,0,0.45);
+	border:0px solid transparent;
+	color: white;}
+.parrafo h1 {text-align: center;font-size: 1.6vw !important;}
+.parrafo p {text-align: justify;}
+
+.notas{	background-color: white;
+	opacity: 0.5;
+	font-size: 1.0vw !important;
+}
+/* ejemplo 2 */
+.bloque {
+margin: 10% auto;
+width: 100%;
+
+height: 150px;
+		 	min-height: 150px;
+
+background-color: rgba(121,182,246,1);
+border: 1px solid #99cccc;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center !important;
+}
+.bloque {
+padding: 30px;
+
+
+
+}
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: right;
+}
+
+#form label {
+  font-size: 120px;
+}
+
+input { color: black; }
+input[type="radio"] {
+  display: none;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label { 
+  float: left;
+  display: block;
+  width: 30%;
+  color: white;
+}
+
+label:hover,
+label:hover ~ label {
+  color: #CCFF2F;
+}
+
+[type="text"] {float: none;}
+
+input[type="radio"]:checked ~ label {
+  color: #CCFF2F;
+}
+
+fieldset {  
+
+            border-color: black;
+            padding: 5; }
