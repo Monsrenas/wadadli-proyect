@@ -41,11 +41,15 @@
 
                 <p><label>Birthdate</label> 
                 <input name="DOB" type="date" id="DOB" required=""> </p>
-                <br>
+                <br><br>
                
                 <p><label>Email</label> 
-                <input name="email" type="email" id="mail" placeholder="email" required=""> </p>
+                <input style="width: 65%;" name="email" type="email" id="mail" placeholder="email" required=""> </p>
 
+                <p><label>Address</label> 
+                <input style="width: 65%; font-size: 1.0vw;" name="adres" type="text" id="adres" placeholder="address"></p>
+
+                <br><br> 
                 <p><label>Employment</label>
                 <!-- Trigger the modal with a button -->
                 <button type="button" class="" data-toggle="modal" data-target="#myModal">employment information</button>
@@ -72,9 +76,12 @@
                     <option> Divorced
                     <option> Widowed 
                 </select> </p>
-                <br>
+                <br><br>
                 <p><label>Phone</label> 
-                <input style="width: 25%;" name="comPhone" type="tel" id="telephone" placeholder="phone" required=""> <input name="cell" type="number" id="cell number" placeholder="Cell" required=""> </p>
+                <input style="width: 25%;" name="comPhone" type="tel" id="telephone" placeholder="phone" required=""> <input style="width: 25%;" name="cell" type="number" id="cell number" placeholder="Cell" required=""> </p>
+
+                <p><label>Zip code</label> 
+                <input name="zipcod" type="text" id="zipcod" placeholder="Postcode"></p>
 
               </div>
               
